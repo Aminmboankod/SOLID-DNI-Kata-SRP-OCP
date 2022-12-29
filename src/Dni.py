@@ -1,7 +1,9 @@
-
+from src.assignment_letter import MappingTable
 
 class Dni:
     
+    def __init__(self):
+        self.tabla = MappingTable()
 
     @staticmethod
     def checkDni(num):
@@ -10,4 +12,6 @@ class Dni:
         return False
 
 
+    def completeDni(self, num):
+        return num+(self.tabla.getLetter(num))
     
