@@ -1,5 +1,5 @@
-from searchLetterDNI import Dni
-from letterAssignment import Mapping_table
+from src.Dni import Dni
+from src.assignment_letter import Mapping_table
 
 
 if __name__=="__main__":
