@@ -1,31 +1,31 @@
 # SOLID-DNI-Kata-SRP-OCP
 # Índice
 
-1. Introducción
++   Introducción
 
-2. Instrucciones del kata
-    2.1. Solid DNI Kata - SRP y OCP
-    2.2. Tabla de asignación
++   Instrucciones del kata
+    +   Solid DNI Kata - SRP y OCP
+    +   Tabla de asignación
 
-3. Manual
-    3.1 Requisitos previos
-    3.2 Instalación
-    3.3 Uso
++   Manual
+    +   Requisitos previos
+    +   Instalación
+    +   Uso
 
-4. Documentación para DDD
-    4.1. Cálculo del dígito de control del NIF/NIE
++   Documentación para DDD
+    +   Cálculo del dígito de control del NIF/NIE
 
-5. Arquitectura de la aplicación
-    5.1. Modelo DDD
-    5.2. Diagrama UML
-    5.3. Capas Lógica
-    5.4. Capa de acceso a datos
++   Arquitectura de la aplicación
+    +   Modelo DDD
+    +   Diagrama UML
+    +   Capas Lógica
+    +   Capa de acceso a datos
 
-6. Pruebas
-    6.1. Test
-    6.2. Coverage
++   Pruebas
+    +   Test
+    +   Coverage
 
-7. Conclusiones
++   Conclusiones
 
 
 # Introducción
@@ -38,7 +38,7 @@ El objetivo es desarrollarlo a partir de test (TDD) previo DDD y aplicar los pri
 
 #### SOLID DNI KATA - SRP y OCP 
 
-[!DNI](images/dni.jpg)
+![DNI](/images/dni.jpg)
 
 Escribe un programa que dado un número de DNI obtenga la letra del NIF. La letra correspondiente a un DNI se calcula mediante el siguiente algoritmo: 
 
