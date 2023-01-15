@@ -1,17 +1,15 @@
-from src.assignment_letter import MappingTable
 
-class Dni:
+
+class DNI:
     
-    def __init__(self):
-        self.tabla = MappingTable()
+    def __init__(self, numero, letra):
+        self.numero = numero
+        self.letra = letra
 
-    @staticmethod
-    def checkDni(num):
-        if len(num) == 8 and num.isdigit():
-            return True
-        return False
+    def obtenerLetra(self):
+        return self.letra
 
+    def obtenerNumero(self):
+        return self.numero
 
-    def completeDni(self, num):
-        return num+(self.tabla.getLetter(num))
     

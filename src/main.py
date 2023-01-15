@@ -1,4 +1,4 @@
-from assignment_letter import MappingTable
+from src.caculadoraDNI import MappingTable
 from Dni import Dni
 
 

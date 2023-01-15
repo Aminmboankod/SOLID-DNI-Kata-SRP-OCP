@@ -1,14 +1,13 @@
-from src.assignment_letter import MappingTable
+from src.caculadoraDNI import CalculadoraDNI
 import pytest
 
 @pytest.fixture
-def assignmentTable():
-    table = MappingTable()
+def calculadoraDNI():
+    table = CalculadoraDNI()
     return table
 
 @pytest.mark.getLetter
-def test_getLetter(assignmentTable):
-    assert "Z" == assignmentTable.getLetter("45301872")
+def test_getLetter():
 
 @pytest.mark.returnRest
 def test_assignmentLetter(assignmentTable):
