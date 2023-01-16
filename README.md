@@ -128,6 +128,14 @@ $ ./setup.sh
 ## Modelo DDD
 ---
 ![Modelo DDD](/docs/images/DDD.drawio.png)
+Tenemos un **DNI** que necesita de una tabla de asignación para establecer correctamente un **digito control** para asociarlo al **número de identificación fiscal (NIF)**. 
+
+El **DNI** va a contener el **NIF**, el **Digito control** y otros datos personales del propietario.
+Ejemplo: 45301872Z
+| NIF | D. Control |
+|----|----|
+45301872 | Z
+
 ## Diagrama UML
 ---
 ![Diagrama UML](/docs/images/DNI_UML.drawio.png)

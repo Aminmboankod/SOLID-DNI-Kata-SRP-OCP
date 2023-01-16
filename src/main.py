@@ -1,5 +1,5 @@
-from src.logic.caculadoraDNI import MappingTable
-from src.accesoDatos.Dni import Dni
+from src.accesoDatos.caculadoraDNI import MappingTable
+from src.logic.Dni import Dni
 
 
 
