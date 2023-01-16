@@ -11,10 +11,13 @@ class CalculadoraDNI:
         resto = int(self.numero) % len(self.table)
         return resto
 
-    def obtenerPosicionLetra(self):
+    def posicionDigito(self):
         posicion = self.calcularResto()
         return posicion 
 
-    def obtenerLetraTabla(self):
-        letra = self.table[self.obtenerPosicionLetra()]
+    def obtenerDigito(self):
+        letra = self.table[self.posicionDigito()]
         return letra
+
+    def nifCompleto(self):
+        self.numero+str(self.obtenerDigito())

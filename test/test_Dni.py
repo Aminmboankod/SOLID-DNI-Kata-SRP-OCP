@@ -1,4 +1,4 @@
-from src.Dni import Dni
+from src.accesoDatos.Dni import Dni
 import pytest
 
 @pytest.fixture

@@ -1,4 +1,4 @@
-from src.caculadoraDNI import CalculadoraDNI
+from src.logic.caculadoraDNI import CalculadoraDNI
 import pytest
 
 @pytest.fixture
