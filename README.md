@@ -2,30 +2,24 @@
 # Índice
 
 +   [Introducción](#introducción)
-
 +   [Instrucciones del kata](#instrucciones-del-kata)
     +   [Solid DNI Kata - SRP y OCP](#solid-dni-kata---srp-y-ocp)
     +   [Tabla de asignación](#tabla-de-asignación)
-
 +   [Manual](#manual)
     +   [Requisitos previos](#requisitos-previos)
     +   [Instalación](#instalación)
     +   [Uso](#uso)
-
 +   [Documentación para DDD](#documentación-para-el-domain-drive-design)
     +   [Cálculo del dígito de control del NIF/NIE](#cálculo-del-dígito-de-control-del-nifnie)
-
 +   [Arquitectura de la aplicación](#arquitectura-de-la-aplicación)
     +   [Modelo DDD](#modelo-ddd)
     +   [Diagrama UML](#diagrama-uml)
     +   [Capa Lógica](#capa-lógica)
     +   [Capa de acceso a datos](#capa-de-acceso-a-datos)
++   [Pruebas](#pruebas)
+    +   [Coverage](#coverage)
 
-+   Pruebas
-    +   Test
-    +   Coverage
 
-+   Conclusiones
 
 
 # Introducción
@@ -112,6 +106,7 @@ Ejecuta el archivo de configuración:
 $ ./setup.sh
 ```
 ## Uso
+El siguiente programa se puede implementar en cualquier software que esté escrito en python. Pensado para comprobar formularios donde se introduzcan números de identificación fiscal.
 
 Utiliza **DNI.dniCompleto("args")** donde args sería el NIF incompleto al que quieres calcularle la letra.
 
@@ -158,5 +153,3 @@ Ejemplo: 45301872Z
 ## Coverage
 ---
 ![Coverage](/docs/images/coverage.png)
-## Conclusiones
----
