@@ -36,6 +36,9 @@ class DNI:
         self.dni += str(self.nif)+str(self.digitoControl)
         return self.dni
     
+    def obtenerDNI(self):
+        return self.dni
+
     def verificarDNI(self):
         return len(self.dniCompleto()) == 9
         

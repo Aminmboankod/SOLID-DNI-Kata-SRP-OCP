@@ -101,10 +101,6 @@ Z → 2
 
 ## Instalación
 
-Se recomienda utilizar en 'virtualenv' para instalar todas las dependencias utilizadas por el programa. En [Windows](https://docs.python.org/es/3.8/library/venv.html) lo puedes instalar siguiendo su guía. En **Linux** ejecuta la siguiente instrucción. 
-```
-$ sudo apt-get install python3-venv
-```
 Crea el directorio donde vas a clonar el repositorio  y clonalo usando el siguiente comando:
 ```
 $ mkdir ./CalculadoraDNI
@@ -117,6 +113,9 @@ $ ./setup.sh
 ```
 ## Uso
 
+Utiliza **DNI.dniCompleto("args")** donde args sería el NIF incompleto al que quieres calcularle la letra.
+
+También puedes usar cualquiera de los métodos de obtención de datos del DNI como **DNI.dividirDigito()** para obtener solo el dígito control introducido y **DNI.verificaDigito()** para comprobar si es un dígito control correcto.
 
 
 ## Arquitectura de la aplicación
@@ -153,9 +152,11 @@ Ejemplo: 45301872Z
 
 ## Pruebas
 ---
-## Test
----
+[Pruebas capa lógica](/test/test_Dni.py)
+
+[Pruebas capa accesoDatos](/test/test_calculadoraDNI.py)
 ## Coverage
 ---
+![Coverage](/docs/images/coverage.png)
 ## Conclusiones
 ---
